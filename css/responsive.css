@@ -204,4 +204,8 @@
       flex-direction: column;
     }
   }
-  
+  @media screen and (min-width: 768px) {  
+  .overlay {
+    top: 170px;
+}
+  }
