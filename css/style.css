@@ -433,3 +433,23 @@ dt > h2 {
   text-decoration: none;
   cursor: pointer;
 }
+.warning-footer {
+  display: flex;
+  justify-content: baseline;
+  gap: 10px;
+  padding: 12px 0px;
+}
+img.f-warning-img {
+  width: 40px;
+  position: relative;
+  top: -4px;
+}
+p.f-p-area.f-warning-img {
+  margin: 0;
+  color: #000000;
+  font-style: italic;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 18px;
+}
